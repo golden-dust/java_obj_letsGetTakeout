@@ -1,12 +1,8 @@
 
-public interface PricedItem<Number T> {
+public interface PricedItem<T extends Number> {
 	
-	public T getPrice() {
-		
-	}
+	T getPrice();
 	
-	public void setPrice(T price) {
-		
-	}
+	void setPrice(T price);
 	
 }
