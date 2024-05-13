@@ -24,5 +24,9 @@ public class Customer {
 	public int getMoney() {
 		return this.money;
 	}
+	
+	public String toString() {
+		return this.name;
+	}
 
 }

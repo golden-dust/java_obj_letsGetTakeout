@@ -26,8 +26,7 @@ public class Food implements PricedItem<Integer> {
 	
 	@Override
 	public String toString() {
-		this.description = "Enjoy Tacos: " + this.name + "\nCost: $" + this.price;
-		System.out.println(this.description);
+		return "Enjoy " + this.name + ": " + this.description + "\tCost: $" + this.price;
 	}
 
 }
